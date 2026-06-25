@@ -1,0 +1,18 @@
+[package]
+name = "dynno"
+version = "0.1.0"
+edition = "2024"
+
+
+[workspace]
+resolver = "3"
+members = [
+    "dynno_engine",
+    "dynno_derive",
+    "dynno_core"
+]
+
+[dependencies]
+dynno_core = { path = "dynno_core"}
+dynno_derive = { path = "dynno_derive"}
+dynno_engine = { path = "dynno_engine"}

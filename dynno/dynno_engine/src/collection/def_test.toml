@@ -1,0 +1,16 @@
+[collection]
+name = "foo"
+uiid = "foobarbaz"
+
+[fields]
+[fields.someuuid]
+name = "some_field"
+fixed_size = true #bool
+type = "i32"
+
+[fields.someuuid2]
+name = "some_field"
+fixed_size = false #bool
+type = "String"
+
+
