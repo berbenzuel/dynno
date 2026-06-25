@@ -35,6 +35,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "dynno_examples"
+version = "0.1.0"
+dependencies = [
+ "dynno",
+]
+
+[[package]]
 name = "equivalent"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"

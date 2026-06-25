@@ -11,3 +11,5 @@ syn = { version = "2", features = ["full"]}
 quote = "1"
 proc-macro2 = "1"
 dynno_core = {path = "../dynno_core" }
+toml = "1.1.2"
+log = "0.4.33"
