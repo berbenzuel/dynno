@@ -10,7 +10,7 @@ members = [
     "dynno_engine",
     "dynno_derive",
     "dynno_core"
-]
+, "tests"]
 
 [dependencies]
 dynno_core = { path = "dynno_core"}
