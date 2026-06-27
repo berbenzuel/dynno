@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 dynno_derive = {path = "../dynno_derive" }
+toml = "1.1.2"
+serde = { version = "1.0.228", features = ["derive"] }
+uuid = "1.23.4"

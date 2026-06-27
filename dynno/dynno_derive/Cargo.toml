@@ -12,4 +12,5 @@ quote = "1"
 proc-macro2 = "1"
 dynno_core = {path = "../dynno_core" }
 toml = "1.1.2"
-log = "0.4.33"
+proc-macro-crate = {version = "3"}
+uuid = { version = "1.23.4", features = ["v4"] }
